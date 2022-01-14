@@ -15,10 +15,3 @@ function random() {
     }
     return generateNum;
 }
-
-const result = random();
-
-for (let i = 0; i < 100; i++){
-    console.log(result())
-}
-
